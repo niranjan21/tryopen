@@ -808,7 +808,7 @@
       ]
     },
     {
-      "name": "employee Category",
+      "name": "Employee Category",
       "elements": [
         {
           "elementname": "name",
@@ -1615,78 +1615,6 @@
       ]
     },
     {
-      "name": "Logo",
-      "elements": [
-        {
-          "elementname": "photoFileName",
-          "elementtype": "String"
-        },
-        {
-          "elementname": "photoContentType",
-          "elementtype": "String"
-        },
-        {
-          "elementname": "photoFileSize",
-          "elementtype": "String"
-        },
-        {
-          "elementname": "photoData",
-          "elementtype": "String"
-        }
-      ]
-    },
-    {
-      "name": "Menu",
-      "elements": [
-        {
-          "elementname": "parentId",
-          "elementtype": "Number"
-        },
-        {
-          "elementname": "title",
-          "elementtype": "String"
-        },
-        {
-          "elementname": "url",
-          "elementtype": "String"
-        },
-        {
-          "elementname": "class",
-          "elementtype": "String"
-        },
-        {
-          "elementname": "position",
-          "elementtype": "Number"
-        },
-        {
-          "elementname": "groupId",
-          "elementtype": "Number"
-        }
-      ]
-    },
-    {
-      "name": "Menu Group",
-      "elements": [
-        {
-          "elementname": "title",
-          "elementtype": "String"
-        }
-      ]
-    },
-    {
-      "name": "Os Translated",
-      "elements": [
-        {
-          "elementname": "language",
-          "elementtype": "String"
-        },
-        {
-          "elementname": "translation",
-          "elementtype": "String"
-        }
-      ]
-    },
-    {
       "name": "Payroll Category",
       "elements": [
         {
@@ -2029,19 +1957,6 @@
         {
           "elementname": "weekday",
           "elementtype": "String"
-        }
-      ]
-    },
-    {
-      "name": "Student Additional Field",
-      "elements": [
-        {
-          "elementname": "name",
-          "elementtype": "String"
-        },
-        {
-          "elementname": "status",
-          "elementtype": "Number"
         }
       ]
     },
