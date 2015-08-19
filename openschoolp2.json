@@ -1,0 +1,2696 @@
+{
+  "name": "open school",
+  "models": [
+    {
+      "name": "Asset",
+      "pluralname": "Assets",
+      "paramname": "asset",
+      "parampluralname": "assets",
+      "elements": [
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isInactive",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Liability",
+      "pluralname": "Liabilities",
+      "paramname": "liability",
+      "parampluralname": "liabilities",
+      "elements": [
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isSolved",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Date"
+        }
+      ]
+    },
+    {
+      "name": "Finance Fee Category",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isMaster",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Finance Donation",
+      "elements": [
+        {
+          "elementname": "donor",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "transactionId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "transactionDate",
+          "elementtype": "Date"
+        }
+      ]
+    },
+    {
+      "name": "Student",
+      "elements": [
+        {
+          "elementname": "uid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "parentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "admissionNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "classRollNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "admissionDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "firstName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "middleName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "lastName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "dateOfBirth",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "gender",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bloodGroup",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "birthPlace",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "nationalityId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "language",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "religion",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "studentCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "addressLine1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "addressLine2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "city",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "state",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "pinCode",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "countryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "phone1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "phone2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "email",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "immediateContactId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isSmsEnabled",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "photoFileName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoContentType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoData",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "statusDescription",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isActive",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "hasPaidFees",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "photoFileSize",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "userId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Monthly Payslip",
+      "elements": [
+        {
+          "elementname": "salaryDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "payrollCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isApproved",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "approverId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isRejected",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "rejectorId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "reason",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Employee",
+      "pluralname": "Employees",
+      "paramname": "employee",
+      "parampluralname": "employees",
+      "elements": [
+        {
+          "elementname": "uid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeNumber",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "joiningDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "firstName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "middleName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "lastName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "gender",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "jobTitle",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "employeePositionId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeDepartmentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "reportingManagerId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeGradeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "qualification",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "experienceDetail",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "experienceYear",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "experienceMonth",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "statusDescription",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "dateOfBirth",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "maritalStatus",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "childrenCount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "fatherName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "motherName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "husbandName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bloodGroup",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "nationalityId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "homeAddressLine1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "homeAddressLine2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "homeCity",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "homeState",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "homeCountryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "homePinCode",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeAddressLine1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeAddressLine2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeCity",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeState",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeCountryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "officePinCode",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officePhone1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officePhone2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "mobilePhone",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "homePhone",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "email",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "fax",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoFileName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoContentType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoData",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoFileSize",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "userId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Subject",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "code",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "noExams",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "maxWeeklyClasses",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "electiveGroupId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Apply Leave",
+      "elements": [
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeLeaveTypesId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isHalfDay",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "startDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "endDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "reason",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "approved",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "viewedByManager",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "managerRemark",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Attendance",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "periodTableEntryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "forenoon",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "afternoon",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "reason",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Individual Payslip Category",
+      "elements": [
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "salaryDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isDeduction",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "includeEveryMonth",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Setting",
+      "pluralname": "Settings",
+      "paramname": "setting",
+      "parampluralname": "settings",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "value",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Fee Collection Discount",
+      "elements": [
+        {
+          "elementname": "type",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "receiverId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "financeFeeCollectionId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "discount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isAmount",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Fee Discount",
+      "elements": [
+        {
+          "elementname": "type",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "receiverId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "financeFeeCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "discount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isAmount",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "StudentCategory",
+      "pluralname": "StudentCategories",
+      "paramname": "student-category",
+      "parampluralname": "student-categories",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "country",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Batch",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "courseId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "startDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "endDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "isActive",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeId",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Employee Department",
+      "elements": [
+        {
+          "elementname": "code",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Employee Position",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "employeeCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "employee Category",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "prefix",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "action",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Employee Grade",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "priority",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "maxHoursDay",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "maxHoursWeek",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "course",
+      "elements": [
+        {
+          "elementname": "courseName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "code",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "sectionName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Student Additional Detail",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "additionalFieldId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "additionalInfo",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Mess Fee",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "String",
+          "schemaobjref": "students Detail"
+        },
+        {
+          "elementname": "allotmentId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isPaid",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Additional Exam",
+      "elements": [
+        {
+          "elementname": "additionalExamGroupId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subjectId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "startTime",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "endTime",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "maximumMarks",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "minimumMarks",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "gradingLevelId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "weightage",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "eventId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Additional Exam Group",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "examType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isPublished",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "resultPublished",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "studentsList",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "examDate",
+          "elementtype": "Date"
+        }
+      ]
+    },
+    {
+      "name": "Additional Exam Score",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "examId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "marks",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "gradingLevelId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "remarks",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isFailed",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Bank Fields",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Batch Student",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Category",
+      "elements": [
+        {
+          "elementname": "catId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "catName",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Class Timing",
+      "elements": [
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "startTime",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "endTime",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isBreak",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Configuration",
+      "elements": [
+        {
+          "elementname": "configKey",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "configValue",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Elective",
+      "elements": [
+        {
+          "elementname": "electiveGroupId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Elective Group",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Employee Subject",
+      "elements": [
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subjectId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Employee Additional Detail",
+      "elements": [
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "additionalFieldId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "additionalInfo",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Employee Attendance",
+      "elements": [
+        {
+          "elementname": "attendanceDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeLeaveTypeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "reason",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isHalfDay",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Employee Bank Detail",
+      "elements": [
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "bankFieldId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "bankInfo",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Employee Department Event",
+      "elements": [
+        {
+          "elementname": "eventId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeDepartmentId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Employee Leave",
+      "elements": [
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeLeaveTypeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "leaveCount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "leaveTaken",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "resetDate",
+          "elementtype": "Date"
+        }
+      ]
+    },
+    {
+      "name": "Employee Leave Type",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "code",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "maxLeaveCount",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "carryForward",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Employee Salary Structure",
+      "elements": [
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "payrollCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Event Type",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "colourCode",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Fee Receipt Detail",
+      "elements": [
+        {
+          "elementname": "student",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "batch",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "collection",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Finance Fee",
+      "elements": [
+        {
+          "elementname": "feeCollectionId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "transactionId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isPaid",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Finance Fee Collection",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "startDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "endDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "dueDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "feeCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Finance Fee Structure Element",
+      "elements": [
+        {
+          "elementname": "amount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "label",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "studentCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "parentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "feeCollectionId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "deleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Finance Transaction",
+      "elements": [
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "fineIncluded",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "categoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "financeFeesId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "transactionDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "fineAmount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "masterTransactionId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "financeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "financeType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "payeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "payeeType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "receiptNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "voucherNo",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Finance Transaction Category",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isIncome",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "deleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Finance Transaction Trigger",
+      "elements": [
+        {
+          "elementname": "financeCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "percentage",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Grading Level",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "minScore",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "order",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Guardian",
+      "elements": [
+        {
+          "elementname": "uid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "wardId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "firstName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "lastName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "relation",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "email",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officePhone1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officePhone2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "mobilePhone",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeAddressLine1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeAddressLine2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "city",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "state",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "countryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "dateOfBirth",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "occupation",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "income",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "education",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Language",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "code",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Logo",
+      "elements": [
+        {
+          "elementname": "photoFileName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoContentType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoFileSize",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoData",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Menu",
+      "elements": [
+        {
+          "elementname": "parentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "url",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "class",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "position",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "groupId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Menu Group",
+      "elements": [
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Os Translated",
+      "elements": [
+        {
+          "elementname": "language",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "translation",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Payroll Category",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "percentage",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "payrollCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeduction",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Period Entry",
+      "elements": [
+        {
+          "elementname": "monthDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subjectId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "classTimingId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Privilege",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Privileges User",
+      "elements": [
+        {
+          "elementname": "userId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "privilegeId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Profile",
+      "elements": [
+        {
+          "elementname": "userId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "lastname",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "firstname",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Profiles Field",
+      "elements": [
+        {
+          "elementname": "varname",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "fieldType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "fieldSize",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "fieldSizeMin",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "required",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "match",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "range",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "errorMessage",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "otherValidator",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "default",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "widget",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "widgetparams",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "position",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "visible",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Right",
+      "elements": [
+        {
+          "elementname": "itemname",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "type",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "weight",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Schema Migration",
+      "elements": [
+        {
+          "elementname": "version",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Students Subject",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subjectId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Student Attentance",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "date",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "reason",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Student Extra",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "extra",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Student Guardian",
+      "elements": [
+        {
+          "elementname": "gid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "sid",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Student Previous Data",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "institution",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "year",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "course",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "totalMark",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Student Previous Subject Marks",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subject",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "mark",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Subject Name",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "code",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Timetable Entry",
+      "elements": [
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "weekdayId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "classTimingId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subjectId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Timezone",
+      "elements": [
+        {
+          "elementname": "timezone",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Weekday",
+      "elements": [
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "weekday",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Student Additional Field",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Exam",
+      "elements": [
+        {
+          "elementname": "examGroupId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subjectId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "startTime",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "endTime",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "maximumMarks",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "minimumMarks",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "gradingLevelId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "weightage",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "eventId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Exam Group",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "examType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isPublished",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "resultPublished",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "examDate",
+          "elementtype": "Date"
+        }
+      ]
+    },
+    {
+      "name": "Exam Score",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "examId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "marks",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "gradingLevelId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "remarks",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isFailed",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Grouped Exam",
+      "elements": [
+        {
+          "elementname": "examGroupId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Fee Collection Particular",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "financeFeeCollectionId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "studentCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "admissionNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Finance Fee Particular",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "financeFeeCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "studentCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "admissionNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    }
+  ],
+  "views": [],
+  "menus": [
+    {
+      "menuname": "Assessments",
+      "menulabel": "Assessments",
+      "submenus": [
+        {
+          "mainmenuname": "Assessments",
+          "submenuname": "additional-exam",
+          "submenulabel": "Additional Exams"
+        },
+        {
+          "mainmenuname": "Assessments",
+          "submenuname": "additional-exam-group",
+          "submenulabel": "Additional Exam Groups"
+        },
+        {
+          "mainmenuname": "Assessments",
+          "submenuname": "exam",
+          "submenulabel": "Exams"
+        },
+        {
+          "mainmenuname": "Assessments",
+          "submenuname": "exam-group",
+          "submenulabel": "Exam Groups"
+        },
+        {
+          "mainmenuname": "Assessments",
+          "submenuname": "exam-score",
+          "submenulabel": "Exam Scores"
+        },
+        {
+          "mainmenuname": "Assessments",
+          "submenuname": "grading-level",
+          "submenulabel": "Grading Levels"
+        },
+        {
+          "mainmenuname": "Assessments",
+          "submenuname": "grouped-exam",
+          "submenulabel": "Grouped Exams"
+        },
+        {
+          "mainmenuname": "Assessments",
+          "submenuname": "additional-exam-score",
+          "submenulabel": "Additional Exam Scores"
+        }
+      ]
+    },
+    {
+      "menuname": "Employees",
+      "menulabel": "Employees",
+      "submenus": [
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "apply-leave",
+          "submenulabel": "Apply Leave"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee",
+          "submenulabel": "Employees"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employees-subject",
+          "submenulabel": "Employees Subjects"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-additional-detail",
+          "submenulabel": "Employee Additional Details"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-attendance",
+          "submenulabel": "Employee Attendances"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-bank-detail",
+          "submenulabel": "Employee Bank Details"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-category",
+          "submenulabel": "Employee Categories"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-department",
+          "submenulabel": "Employee Departments"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-department-event",
+          "submenulabel": "Employee Department Events"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-grade",
+          "submenulabel": "Employee Grades"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-leave",
+          "submenulabel": "Employee Leaves"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-leave-type",
+          "submenulabel": "Employee Leave Types"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-position",
+          "submenulabel": "Employee Positions"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "employee-salary-structure",
+          "submenulabel": "Employee Salary Structures"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "individual-payslip-category",
+          "submenulabel": "Individual Payslip Categories"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "monthly-payslip",
+          "submenulabel": "Monthly Payslips"
+        },
+        {
+          "mainmenuname": "Employees",
+          "submenuname": "payroll-category",
+          "submenulabel": "Payroll Categories"
+        }
+      ]
+    },
+    {
+      "menuname": "Fees",
+      "menulabel": "Fees",
+      "submenus": [
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "asset",
+          "submenulabel": "Assets"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "bank-field",
+          "submenulabel": "Bank Fields"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "fee-collection-discount",
+          "submenulabel": "Fee Collection Discounts"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "fee-collection-particular",
+          "submenulabel": "Fee Collection Particulars"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "fee-discount",
+          "submenulabel": "Fee Discounts"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "fee-receipt-detail",
+          "submenulabel": "Fee Receipt Details"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "finance-donation",
+          "submenulabel": "Finance Donations"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "finance-fee",
+          "submenulabel": "Finance Fees"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "finance-fee-category",
+          "submenulabel": "Finance Fee Categories"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "finance-fee-collection",
+          "submenulabel": "Finance Fee Collections"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "finance-fee-particular",
+          "submenulabel": "Finance Fee Particulars"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "finance-fee-structure-element",
+          "submenulabel": "Finance Fee Structure Elements"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "finance-transaction",
+          "submenulabel": "Finance Transactions"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "finance-transaction-category",
+          "submenulabel": "Finance Transaction Categories"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "finance-transaction-trigger",
+          "submenulabel": "Finance Transaction Triggers"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "liability",
+          "submenulabel": "Liabilities"
+        },
+        {
+          "mainmenuname": "Fees",
+          "submenuname": "mess-fee",
+          "submenulabel": "Mess Fee"
+        }
+      ]
+    },
+    {
+      "menuname": "Students",
+      "menulabel": "Students",
+      "submenus": [
+        {
+          "mainmenuname": "Students",
+          "submenuname": "attendance",
+          "submenulabel": "Attendances"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "category",
+          "submenulabel": "Category"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "guardian",
+          "submenulabel": "Guardians"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "student",
+          "submenulabel": "Students"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "students-subject",
+          "submenulabel": "Students Subjects"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "student-additional-detail",
+          "submenulabel": "Student Additional Details"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "student-additional-field",
+          "submenulabel": "Student Additional Fields"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "student-attentance",
+          "submenulabel": "Student Attentance"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "student-category",
+          "submenulabel": "Student Categories"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "student-extra",
+          "submenulabel": "Student Extra"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "student-guardian",
+          "submenulabel": "Student Guardian"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "student-previous-data",
+          "submenulabel": "Student Previous Datas"
+        },
+        {
+          "mainmenuname": "Students",
+          "submenuname": "student-previous-subject-mark",
+          "submenulabel": "Student Previous Subject Marks"
+        }
+      ]
+    },
+    {
+      "menuname": "Courses",
+      "menulabel": "Courses",
+      "submenus": [
+        {
+          "mainmenuname": "Courses",
+          "submenuname": "batch",
+          "submenulabel": "Batches"
+        },
+        {
+          "mainmenuname": "Courses",
+          "submenuname": "batch-student",
+          "submenulabel": "Batch Students"
+        },
+        {
+          "mainmenuname": "Courses",
+          "submenuname": "course",
+          "submenulabel": "Courses"
+        },
+        {
+          "mainmenuname": "Courses",
+          "submenuname": "elective",
+          "submenulabel": "Electives"
+        },
+        {
+          "mainmenuname": "Courses",
+          "submenuname": "elective-group",
+          "submenulabel": "Elective Groups"
+        },
+        {
+          "mainmenuname": "Courses",
+          "submenuname": "subject",
+          "submenulabel": "Subjects"
+        },
+        {
+          "mainmenuname": "Courses",
+          "submenuname": "subject-name",
+          "submenulabel": "Subject Name"
+        }
+      ]
+    },
+    {
+      "menuname": "Timetable",
+      "menulabel": "Timetable",
+      "submenus": [
+        {
+          "mainmenuname": "Timetable",
+          "submenuname": "class-timing",
+          "submenulabel": "Class Timings"
+        },
+        {
+          "mainmenuname": "Timetable",
+          "submenuname": "period-entry",
+          "submenulabel": "Period Entries"
+        },
+        {
+          "mainmenuname": "Timetable",
+          "submenuname": "timetable-entry",
+          "submenulabel": "Timetable Entries"
+        },
+        {
+          "mainmenuname": "Timetable",
+          "submenuname": "weekday",
+          "submenulabel": "Weekdays"
+        }
+      ]
+    },
+    {
+      "menuname": "System",
+      "menulabel": "System",
+      "submenus": [
+        {
+          "mainmenuname": "System",
+          "submenuname": "configuration",
+          "submenulabel": "Configurations"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "country",
+          "submenulabel": "Countries"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "language",
+          "submenulabel": "Languages"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "menu",
+          "submenulabel": "Menu"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "menu-group",
+          "submenulabel": "Menu Group"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "os-translated",
+          "submenulabel": "Os Translated"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "privilege",
+          "submenulabel": "Privileges"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "privileges-user",
+          "submenulabel": "Privileges Users"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "profile",
+          "submenulabel": "Profiles"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "profiles-field",
+          "submenulabel": "Profiles Fields"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "right",
+          "submenulabel": "Rights"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "schema-migration",
+          "submenulabel": "Schema Migrations"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "setting",
+          "submenulabel": "Settings"
+        },
+        {
+          "mainmenuname": "System",
+          "submenuname": "timezone",
+          "submenulabel": "Timezone"
+        }
+      ]
+    },
+    {
+      "menuname": "Institution",
+      "menulabel": "Institution",
+      "submenus": [
+        {
+          "mainmenuname": "Institution",
+          "submenuname": "events-type",
+          "submenulabel": "Events Type"
+        },
+        {
+          "mainmenuname": "Institution",
+          "submenuname": "logo",
+          "submenulabel": "Logo"
+        }
+      ]
+    }
+  ]
+}

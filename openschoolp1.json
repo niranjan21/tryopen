@@ -1,0 +1,1339 @@
+{
+  "name": "open school p1",
+  "menus": [
+    {
+      "menuname": "Hostel",
+      "menulabel": "Hostel",
+      "submenus": [
+        {
+          "mainmenuname": "Hostel",
+          "submenuname": "allotment",
+          "submenulabel": "Allotment"
+        },
+        {
+          "mainmenuname": "Hostel",
+          "submenuname": "floor",
+          "submenulabel": "Floor"
+        },
+        {
+          "mainmenuname": "Hostel",
+          "submenuname": "food-info",
+          "submenulabel": "Food Info"
+        },
+        {
+          "mainmenuname": "Hostel",
+          "submenuname": "hosteldetails",
+          "submenulabel": "Hosteldetails"
+        },
+        {
+          "mainmenuname": "Hostel",
+          "submenuname": "mess-manage",
+          "submenulabel": "Mess Manage"
+        },
+        {
+          "mainmenuname": "Hostel",
+          "submenuname": "registration",
+          "submenulabel": "Registration"
+        },
+        {
+          "mainmenuname": "Hostel",
+          "submenuname": "room",
+          "submenulabel": "Room"
+        },
+        {
+          "mainmenuname": "Hostel",
+          "submenuname": "roomrequest",
+          "submenulabel": "Roomrequest"
+        },
+        {
+          "mainmenuname": "Hostel",
+          "submenuname": "room-details",
+          "submenulabel": "Room Details"
+        },
+        {
+          "mainmenuname": "Hostel",
+          "submenuname": "vacate",
+          "submenulabel": "Vacate"
+        }
+      ]
+    },
+    {
+      "menuname": "Library",
+      "menulabel": "Library",
+      "submenus": [
+        {
+          "mainmenuname": "Library",
+          "submenuname": "author",
+          "submenulabel": "Author"
+        },
+        {
+          "mainmenuname": "Library",
+          "submenuname": "book",
+          "submenulabel": "Book"
+        },
+        {
+          "mainmenuname": "Library",
+          "submenuname": "book-fine",
+          "submenulabel": "Book Fine"
+        },
+        {
+          "mainmenuname": "Library",
+          "submenuname": "borrow-book",
+          "submenulabel": "Borrow Book"
+        },
+        {
+          "mainmenuname": "Library",
+          "submenuname": "publication",
+          "submenulabel": "Publication"
+        },
+        {
+          "mainmenuname": "Library",
+          "submenuname": "return-book",
+          "submenulabel": "Return Book"
+        }
+      ]
+    },
+    {
+      "menuname": "Transport",
+      "menulabel": "Transport",
+      "submenus": [
+        {
+          "mainmenuname": "Transport",
+          "submenuname": "bus-log",
+          "submenulabel": "Bus Log"
+        },
+        {
+          "mainmenuname": "Transport",
+          "submenuname": "driver-details",
+          "submenulabel": "Driver Details"
+        },
+        {
+          "mainmenuname": "Transport",
+          "submenuname": "fuel-consumption",
+          "submenulabel": "Fuel Consumption"
+        },
+        {
+          "mainmenuname": "Transport",
+          "submenuname": "route-details",
+          "submenulabel": "Route Details"
+        },
+        {
+          "mainmenuname": "Transport",
+          "submenuname": "stop-details",
+          "submenulabel": "Stop Details"
+        },
+        {
+          "mainmenuname": "Transport",
+          "submenuname": "transportation",
+          "submenulabel": "Transportation"
+        },
+        {
+          "mainmenuname": "Transport",
+          "submenuname": "vehicle-details",
+          "submenulabel": "Vehicle Details"
+        }
+      ]
+    },
+    {
+      "menuname": "CMS",
+      "menulabel": "CMS",
+      "submenus": [
+        {
+          "mainmenuname": "CMS",
+          "submenuname": "cms-attachment",
+          "submenulabel": "Cms Attachment"
+        },
+        {
+          "mainmenuname": "CMS",
+          "submenuname": "cms-content",
+          "submenulabel": "Cms Content"
+        },
+        {
+          "mainmenuname": "CMS",
+          "submenuname": "cms-node",
+          "submenulabel": "Cms Node"
+        },
+        {
+          "mainmenuname": "CMS",
+          "submenuname": "news",
+          "submenulabel": "News"
+        },
+        {
+          "mainmenuname": "CMS",
+          "submenuname": "news-comments",
+          "submenulabel": "News Comments"
+        }
+      ]
+    },
+    {
+      "menuname": "Mail",
+      "menulabel": "Mail",
+      "submenus": [
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "draft",
+          "submenulabel": "Draft"
+        },
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "mailbox-conversation",
+          "submenulabel": "Mailbox Conversation"
+        },
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "mailbox-message",
+          "submenulabel": "Mailbox Message"
+        },
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "message",
+          "submenulabel": "Message"
+        },
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "message-action",
+          "submenulabel": "Message Action"
+        },
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "message-user",
+          "submenulabel": "Message User"
+        },
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "read",
+          "submenulabel": "Read"
+        },
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "reminders",
+          "submenulabel": "Reminders"
+        },
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "reply",
+          "submenulabel": "Reply"
+        },
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "sms-settings",
+          "submenulabel": "Sms Settings"
+        },
+        {
+          "mainmenuname": "Mail",
+          "submenuname": "sourcemessage",
+          "submenulabel": "Sourcemessage"
+        }
+      ]
+    },
+    {
+      "menuname": "DMS",
+      "menulabel": "DMS",
+      "submenus": [
+        {
+          "mainmenuname": "DMS",
+          "submenuname": "file-uploads",
+          "submenulabel": "File Uploads"
+        },
+        {
+          "mainmenuname": "DMS",
+          "submenuname": "file-uploads-category",
+          "submenulabel": "File Uploads Category"
+        },
+        {
+          "mainmenuname": "DMS",
+          "submenuname": "folder",
+          "submenulabel": "Folder"
+        },
+        {
+          "mainmenuname": "DMS",
+          "submenuname": "userfolder",
+          "submenulabel": "Userfolder"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Allotment",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bedNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "roomNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "floor",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Author",
+      "elements": [
+        {
+          "elementname": "authorId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "authorName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Book",
+      "elements": [
+        {
+          "elementname": "lsbn",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "subject",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "category",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "author",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "edition",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "publisher",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "copy",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "copyTaken",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bookPosition",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "shelfNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "date",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Book Fine",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bookId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Borrow Book",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bookName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "subject",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bookId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "issueDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "dueDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Bus Log",
+      "elements": [
+        {
+          "elementname": "vehicleId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "startTimeReading",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "endTimeReading",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "fuelConsumption",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Cms Attachment",
+      "elements": [
+        {
+          "elementname": "contentid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "filename",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "extension",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "mimetype",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bytesize",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Cms Content",
+      "elements": [
+        {
+          "elementname": "nodeid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "locale",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "heading",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "body",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "css",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "url",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "pagetitle",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "breadcrumb",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "metatitle",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "metadescription",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "metakeywords",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Cms Node",
+      "elements": [
+        {
+          "elementname": "parentid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "deleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Draft",
+      "elements": [
+        {
+          "elementname": "uid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "mid",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Driver Detail",
+      "elements": [
+        {
+          "elementname": "vehicleId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "firstName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "lastName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "address",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "dob",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "age",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "licenseNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "expiryDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "File Upload",
+      "elements": [
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "category",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "placeholder",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "course",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "batch",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "file",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "fileType",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "File Uploads Category",
+      "elements": [
+        {
+          "elementname": "category",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Floor",
+      "elements": [
+        {
+          "elementname": "hostelId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "floorNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "noOfRooms",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Folder",
+      "elements": [
+        {
+          "elementname": "uid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "mid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "fid",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Food Info",
+      "elements": [
+        {
+          "elementname": "foodPreference",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Fuel Consumption",
+      "elements": [
+        {
+          "elementname": "vehicleId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "fuelConsumed",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "consumedDate",
+          "elementtype": "Date"
+        }
+      ]
+    },
+    {
+      "name": "Hosteldetail",
+      "elements": [
+        {
+          "elementname": "hostelName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "address",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Mailbox Conversation",
+      "elements": [
+        {
+          "elementname": "conversationId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "initiatorId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "interlocutorId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subject",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bmRead",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "bmDeleted",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "modified",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isSystem",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "initiatorDel",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "interlocutorDel",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Mailbox Message",
+      "elements": [
+        {
+          "elementname": "messageId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "conversationId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "senderId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "recipientId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "text",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "crc64",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Message",
+      "elements": [
+        {
+          "elementname": "msgId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subject",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "msgContent",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "msgUploads",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "userId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "msgTime",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "msgDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "isRead",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "senderId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isTask",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Message Action",
+      "elements": [
+        {
+          "elementname": "senderId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "receiverId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subject",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "body",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isRead",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "deletedBy",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Message User",
+      "elements": [
+        {
+          "elementname": "messageId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "userId",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Mess Manage",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "foodPreference",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "News",
+      "elements": [
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "content",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "authorId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "News Comment",
+      "elements": [
+        {
+          "elementname": "content",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "newsId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "authorId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Publication",
+      "elements": [
+        {
+          "elementname": "publicationId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "location",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Read",
+      "elements": [
+        {
+          "elementname": "uid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "mid",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Registration",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "foodPreference",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Reminder",
+      "elements": [
+        {
+          "elementname": "sender",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "recipient",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "subject",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "body",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isRead",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeletedBySender",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeletedByRecipient",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Reply",
+      "elements": [
+        {
+          "elementname": "uid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "sid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "mid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "rid",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Return Book",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bookId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "borrowBookId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "issueDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "returnDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Room",
+      "elements": [
+        {
+          "elementname": "roomNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "floor",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isFull",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "noOfBed",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Room Request",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "allotId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Room Detail",
+      "elements": [
+        {
+          "elementname": "roomNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bedNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "noOfFloors",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "modeOfAllotment",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "studentId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "routeName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "noOfStops",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "vehicleId",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Sms Setting",
+      "elements": [
+        {
+          "elementname": "settingsKey",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isEnabled",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Source Message",
+      "elements": [
+        {
+          "elementname": "category",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "message",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Stop Detail",
+      "elements": [
+        {
+          "elementname": "routeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "stopName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "fare",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "arrivalMrng",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "departureMrng",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "arrivalEvng",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "departureEvng",
+          "elementtype": "Date"
+        }
+      ]
+    },
+    {
+      "name": "Transportation",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "stopId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isPaid",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Userfolder",
+      "elements": [
+        {
+          "elementname": "uid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "foldername",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Vacate",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "roomNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "allotId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "admitDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "vacateDate",
+          "elementtype": "Date"
+        }
+      ]
+    },
+    {
+      "name": "Vehicle Detail",
+      "elements": [
+        {
+          "elementname": "vehicleNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "vehicleCode",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "noOfSeats",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "maximumCapacity",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "vehicleType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "address",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "city",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "state",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "phone",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "insurance",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "taxRemitted",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "permit",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Route Detail",
+      "elements": [
+        {
+          "elementname": "routeName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "noOfStops",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "vehicleId",
+          "elementtype": "String"
+        }
+      ]
+    }
+  ],
+  "controllers": [],
+  "views": []
+}
