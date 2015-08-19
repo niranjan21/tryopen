@@ -1,0 +1,1217 @@
+{
+  "name": "openschoolp0",
+  "menus": [
+    {
+      "menuname": "Blog",
+      "menulabel": "Blog",
+      "submenus": [
+        {
+          "mainmenuname": "Blog",
+          "submenuname": "activity-feed",
+          "submenulabel": "Activity Feed"
+        },
+        {
+          "mainmenuname": "Blog",
+          "submenuname": "blog-user",
+          "submenulabel": "Blog User"
+        },
+        {
+          "mainmenuname": "Blog",
+          "submenuname": "star",
+          "submenulabel": "Star"
+        }
+      ]
+    },
+    {
+      "menuname": "x",
+      "menulabel": "x",
+      "submenus": [
+        {
+          "mainmenuname": "x",
+          "submenuname": "additional-fields",
+          "submenulabel": "Additional Fields"
+        },
+        {
+          "mainmenuname": "x",
+          "submenuname": "authassignment",
+          "submenulabel": "Authassignment"
+        },
+        {
+          "mainmenuname": "x",
+          "submenuname": "authitem",
+          "submenulabel": "Authitem"
+        },
+        {
+          "mainmenuname": "x",
+          "submenuname": "authitemchild",
+          "submenulabel": "Authitemchild"
+        },
+        {
+          "mainmenuname": "x",
+          "submenuname": "batch-events",
+          "submenulabel": "Batch Events"
+        },
+        {
+          "mainmenuname": "x",
+          "submenuname": "buy-product",
+          "submenulabel": "Buy Product"
+        },
+        {
+          "mainmenuname": "x",
+          "submenuname": "store-category",
+          "submenulabel": "Store Category"
+        },
+        {
+          "mainmenuname": "x",
+          "submenuname": "store-product",
+          "submenulabel": "Store Product"
+        },
+        {
+          "mainmenuname": "x",
+          "submenuname": "tbl-timezone",
+          "submenulabel": "Tbl Timezone"
+        }
+      ]
+    },
+    {
+      "menuname": "Archived",
+      "menulabel": "Archived",
+      "submenus": [
+        {
+          "mainmenuname": "Archived",
+          "submenuname": "archived-employees",
+          "submenulabel": "Archived Employees"
+        },
+        {
+          "mainmenuname": "Archived",
+          "submenuname": "archived-employee-additional-details",
+          "submenulabel": "Archived Employee Additional Details"
+        },
+        {
+          "mainmenuname": "Archived",
+          "submenuname": "archived-employee-bank-details",
+          "submenulabel": "Archived Employee Bank Details"
+        },
+        {
+          "mainmenuname": "Archived",
+          "submenuname": "archived-employee-salary-structures",
+          "submenulabel": "Archived Employee Salary Structures"
+        },
+        {
+          "mainmenuname": "Archived",
+          "submenuname": "archived-exam-scores",
+          "submenulabel": "Archived Exam Scores"
+        },
+        {
+          "mainmenuname": "Archived",
+          "submenuname": "archived-guardians",
+          "submenulabel": "Archived Guardians"
+        },
+        {
+          "mainmenuname": "Archived",
+          "submenuname": "archived-students",
+          "submenulabel": "Archived Students"
+        },
+        {
+          "mainmenuname": "Archived",
+          "submenuname": "events-old",
+          "submenulabel": "Events Old"
+        }
+      ]
+    },
+    {
+      "menuname": "User Preferences",
+      "menulabel": "User Preferences",
+      "submenus": [
+        {
+          "mainmenuname": "User Preferences",
+          "submenuname": "events-user-preference",
+          "submenulabel": "Events User Preference"
+        },
+        {
+          "mainmenuname": "User Preferences",
+          "submenuname": "savedsearches",
+          "submenulabel": "Savedsearches"
+        },
+        {
+          "mainmenuname": "User Preferences",
+          "submenuname": "user-settings",
+          "submenulabel": "User Settings"
+        }
+      ]
+    },
+    {
+      "menuname": "Users",
+      "menulabel": "Users",
+      "submenus": [
+        {
+          "mainmenuname": "Users",
+          "submenuname": "groups",
+          "submenulabel": "Groups"
+        },
+        {
+          "mainmenuname": "Users",
+          "submenuname": "users",
+          "submenulabel": "Users"
+        },
+        {
+          "mainmenuname": "Users",
+          "submenuname": "user-details",
+          "submenulabel": "User Details"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "name": "Activity Feed",
+      "elements": [
+        {
+          "elementname": "initiatorId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "activityType",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "goalId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "goalName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "fieldName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "initialFieldValue",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "newFieldValue",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "activityTime",
+          "elementtype": "Date"
+        }
+      ]
+    },
+    {
+      "name": "Activity Type",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "text",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "colorCode",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Additional Fields",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Archived Employees",
+      "elements": [
+        {
+          "elementname": "employeeCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeNumber",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "joiningDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "firstName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "middleName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "lastName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "gender",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "jobTitle",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "employeePositionId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeDepartmentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "reportingManagerId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "employeeGradeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "qualification",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "experienceDetail",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "experienceYear",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "experienceMonth",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "statusDescription",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "dateOfBirth",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "maritalStatus",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "childrenCount",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "fatherName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "motherName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "husbandName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bloodGroup",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "nationalityId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "homeAddressLine1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "homeAddressLine2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "homeCity",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "homeState",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "homeCountryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "homePinCode",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeAddressLine1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeAddressLine2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeCity",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeState",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeCountryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "officePinCode",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officePhone1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officePhone2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "mobilePhone",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "homePhone",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "email",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "fax",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoFileName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoContentType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoData",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoFileSize",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "formerId",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Archived Employee Additional Details",
+      "elements": [
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "additionalFieldId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "additionalInfo",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Archived Employee Bank Details",
+      "elements": [
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "bankFieldId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "bankInfo",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Archived Employee Salary Structures",
+      "elements": [
+        {
+          "elementname": "employeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "payrollCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "amount",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Archived Exam Scores",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "examId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "marks",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "gradingLevelId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "remarks",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isFailed",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Archived Guardians",
+      "elements": [
+        {
+          "elementname": "wardId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "firstName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "lastName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "relation",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "email",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officePhone1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officePhone2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "mobilePhone",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeAddressLine1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "officeAddressLine2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "city",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "state",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "countryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "dateOfBirth",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "occupation",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "income",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "education",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Archived Students",
+      "elements": [
+        {
+          "elementname": "admissionNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "classRollNo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "admissionDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "firstName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "middleName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "lastName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "dateOfBirth",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "gender",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bloodGroup",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "birthPlace",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "nationalityId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "language",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "religion",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "studentCategoryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "addressLine1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "addressLine2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "city",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "state",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "pinCode",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "countryId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "phone1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "phone2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "email",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoFileName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoContentType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoData",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "statusDescription",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "isActive",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDeleted",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "immediateContactId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isSmsEnabled",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "formerId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoFileSize",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Authassignment",
+      "elements": [
+        {
+          "elementname": "itemname",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "userid",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bizrule",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "data",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Authitem",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "type",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "bizrule",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "data",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Authitemchild",
+      "elements": [
+        {
+          "elementname": "parent",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "child",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Batch Events",
+      "elements": [
+        {
+          "elementname": "eventId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "batchId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Blog User",
+      "elements": [
+        {
+          "elementname": "username",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "password",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "salt",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "email",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "profile",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Buy Product",
+      "elements": [
+        {
+          "elementname": "studentId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "prName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "prBrand",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "prQuantity",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "productId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "issuedDate",
+          "elementtype": "Date"
+        }
+      ]
+    },
+    {
+      "name": "Events Old",
+      "elements": [
+        {
+          "elementname": "title",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "description",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "startDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "endDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "isCommon",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isHoliday",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isExam",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "isDue",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "originId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "originType",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Events User Preference",
+      "elements": [
+        {
+          "elementname": "userId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "mobile",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "mobileAlert",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "email",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "emailAlert",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Groups",
+      "elements": [
+        {
+          "elementname": "grpName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "usersIds",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Savedsearches",
+      "elements": [
+        {
+          "elementname": "userId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "url",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "type",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Star",
+      "elements": [
+        {
+          "elementname": "uid",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "mid",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Store Category",
+      "elements": [
+        {
+          "elementname": "caId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "caName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Store Product",
+      "elements": [
+        {
+          "elementname": "productName",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "productBrand",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "productQuantity",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "cId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "price",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "Tbl Timezone",
+      "elements": [
+        {
+          "elementname": "name",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "elements": [
+        {
+          "elementname": "username",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "password",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "email",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "activkey",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "lastvisitAt",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "superuser",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "status",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "User Details",
+      "elements": [
+        {
+          "elementname": "userId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "agencyEmployeeId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "lastname",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "firstname",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "suffix",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "address1",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "address2",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "zipCode",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "city",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "state",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "phone1",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "phone2",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "dateOfBirth",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "ssn",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "includepayroll",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "employeeType",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "weekendAccess",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "earliestLoginTime",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "automaticLogoutTime",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "hireDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "terminationDate",
+          "elementtype": "Date"
+        },
+        {
+          "elementname": "file",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "attachment",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photo",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "photoThumb",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "sign",
+          "elementtype": "String"
+        }
+      ]
+    },
+    {
+      "name": "User Events",
+      "elements": [
+        {
+          "elementname": "eventId",
+          "elementtype": "Number"
+        },
+        {
+          "elementname": "userId",
+          "elementtype": "Number"
+        }
+      ]
+    },
+    {
+      "name": "User Settings",
+      "elements": [
+        {
+          "elementname": "userId",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "dateformat",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "displaydate",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "timezone",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "timeformat",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "nameFormat",
+          "elementtype": "String"
+        },
+        {
+          "elementname": "language",
+          "elementtype": "String"
+        }
+      ]
+    }
+  ],
+  "controllers": [],
+  "views": []
+}
