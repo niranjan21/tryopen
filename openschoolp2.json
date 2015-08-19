@@ -21,11 +21,11 @@
         },
         {
           "elementname": "isInactive",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "isDeleted",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         }
       ]
     },
@@ -49,11 +49,11 @@
         },
         {
           "elementname": "isSolved",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "isDeleted",
-          "elementtype": "Date"
+          "elementtype": "Boolean"
         }
       ]
     },
@@ -74,11 +74,11 @@
         },
         {
           "elementname": "isDeleted",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "isMaster",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         }
       ]
     },
@@ -112,11 +112,13 @@
       "elements": [
         {
           "elementname": "uid",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "User"
         },
         {
           "elementname": "parentId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "User"
         },
         {
           "elementname": "admissionNo",
@@ -144,7 +146,8 @@
         },
         {
           "elementname": "batchId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "Batch"
         },
         {
           "elementname": "dateOfBirth",
@@ -164,7 +167,8 @@
         },
         {
           "elementname": "nationalityId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "Country"
         },
         {
           "elementname": "language",
@@ -176,7 +180,8 @@
         },
         {
           "elementname": "studentCategoryId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "Student Category"
         },
         {
           "elementname": "addressLine1",
@@ -200,7 +205,8 @@
         },
         {
           "elementname": "countryId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "Country"
         },
         {
           "elementname": "phone1",
@@ -216,11 +222,11 @@
         },
         {
           "elementname": "immediateContactId",
-          "elementtype": "Number"
+          "elementtype": "String"
         },
         {
           "elementname": "isSmsEnabled",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "photoFileName",
@@ -240,15 +246,15 @@
         },
         {
           "elementname": "isActive",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "isDeleted",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "hasPaidFees",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "photoFileSize",
@@ -256,7 +262,8 @@
         },
         {
           "elementname": "userId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "User"
         }
       ]
     },
@@ -269,11 +276,13 @@
         },
         {
           "elementname": "employeeId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "Employee"
         },
         {
           "elementname": "payrollCategoryId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "Payroll Category"
         },
         {
           "elementname": "amount",
@@ -281,19 +290,21 @@
         },
         {
           "elementname": "isApproved",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "approverId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "User"
         },
         {
           "elementname": "isRejected",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "rejectorId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "User"
         },
         {
           "elementname": "reason",
@@ -538,16 +549,17 @@
         },
         {
           "elementname": "electiveGroupId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "Elective Group"
         },
         {
           "elementname": "isDeleted",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         }
       ]
     },
     {
-      "name": "Apply Leave",
+      "name": "Leave Application",
       "elements": [
         {
           "elementname": "employeeId",
@@ -555,11 +567,12 @@
         },
         {
           "elementname": "employeeLeaveTypesId",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "Employee Leave Type"
         },
         {
           "elementname": "isHalfDay",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "startDate",
@@ -575,11 +588,12 @@
         },
         {
           "elementname": "approved",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "viewedByManager",
-          "elementtype": "Number"
+          "elementtype": "Schema.Types.ObjectId",
+          "schemaobjref": "User"
         },
         {
           "elementname": "managerRemark",
@@ -600,11 +614,11 @@
         },
         {
           "elementname": "forenoon",
-          "elementtype": "Date"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "afternoon",
-          "elementtype": "Number"
+          "elementtype": "Boolean"
         },
         {
           "elementname": "reason",
@@ -613,7 +627,7 @@
       ]
     },
     {
-      "name": "Individual Payslip Category",
+      "name": "Employee Payslip Category",
       "elements": [
         {
           "elementname": "employeeId",
@@ -716,10 +730,7 @@
       ]
     },
     {
-      "name": "StudentCategory",
-      "pluralname": "StudentCategories",
-      "paramname": "student-category",
-      "parampluralname": "student-categories",
+      "name": "Student Category",
       "elements": [
         {
           "elementname": "name",
